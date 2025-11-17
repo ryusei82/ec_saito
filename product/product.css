@@ -1,0 +1,171 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #E2EADF;
+    color: #333;
+    max-width: 600px;
+    margin: 0 auto;
+}
+a {
+    color: #c1c1c1;
+    text-decoration: none;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    background-color: #E2EADF;
+}
+.logo-image {
+    width: 150px;
+    height: 50px;
+    margin-right: 5px;
+}
+.header-icons {
+    display: flex;
+    align-items: center;
+}
+.logo-image1 {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+.search-bar {
+    display: flex;
+    padding: 10px 15px;
+    background-color: #E2EADF;
+    border-bottom: 1px solid #ddd;
+}
+.logo-image2 {
+    width: 20px;
+    height: 20px;
+}
+.search-bar input[type="text"] {
+    flex-grow: 1;
+    padding: 8px 10px;
+    border: 1px solid #ccc;
+    border-radius: 50px 0 0 50px;
+    background-color: #f8f8f8; /* 入力欄の背景を薄いグレーに */
+    color: #666;
+}
+.search-bar button {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-left: none;
+    background-color: #ffffff;
+    cursor: pointer;
+    border-radius: 0 50px 50px 0;
+    font-size: 1.1em;
+}
+.breadcrumb {
+    padding: 8px 15px;
+    font-size: 0.85em;
+    color: #656565;
+    background-color: #93919145;
+}
+.breadcrumb a {
+    color: #b4b4b4;
+}
+.breadcrumb span {
+    margin: 0 5px;
+}
+.product-detail {
+    padding: 15px;
+}
+.product-category-text {
+    font-size: 0.75em;
+    color: #888;
+    margin: 0 0 5px 0;
+}
+.product-title {
+    font-size: 1.4em;
+    margin: 0 0 15px 0;
+    font-weight: 600;
+}
+.product-image-container {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 5px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+.product-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+.product-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+.price-stock-info {
+    margin: 0;
+}
+.quantity-control {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    font-size: 1em;
+}
+
+.quantity-control label {
+    font-weight: bold;
+    margin-right: 15px;
+}
+.quantity-input-group {
+    display: flex;
+    align-items: center;
+}
+.quantity-btn {
+    width: 35px;
+    height: 35px;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #0016bc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.minus-btn {
+    border: 1px solid #0016bc;
+    border-radius: 50px 50px 50px 50px;
+}
+.plus-btn {
+    border: 1px solid #0016bc;
+    border-radius: 50px 50px 50px 50px;
+}
+.quantity-input {
+    width: 40px;
+    text-align: center;
+    border: none;
+    padding: 5px 0;
+    font-size: 1em;
+    margin: 0;
+}
+.action-buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 0 15px 15px 15px;
+}
+.btn {
+    flex-grow: 1;
+    padding: 12px 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    color: #fff;
+    background-color: #a395b8; 
+}

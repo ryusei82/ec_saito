@@ -1,0 +1,137 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  margin: 0;
+  background-color: #e8eee5;
+}
+
+header {
+  background-color: #dce3d9;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 15px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 30px;
+  margin-right: 8px;
+}
+
+.logo span {
+  font-size: 18px;
+  font-weight: bold;
+  color: #e24c2a;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.search-bar {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.search-bar input {
+  width: 85%;
+  padding: 8px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+.filters {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+
+select {
+  padding: 6px;
+  border-radius: 6px;
+  border: 1px solid #aaa;
+  background-color: #fff;
+}
+
+.products {
+  padding: 10px;
+}
+
+.section-title {
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  text-align: center;
+  padding: 10px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.brand-scroll {
+  display: flex;
+  overflow-x: auto;
+  gap: 10px;
+  padding: 10px 0;
+}
+
+.brand-scroll img {
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+.mypage-dropdown {
+  position: relative;
+}
+
+.mypage-menu {
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 25px;
+  background: white;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  padding: 5px 0;
+  min-width: 120px;
+}
+
+.mypage-menu a {
+  display: block;
+  padding: 8px 12px;
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+}
+
+.mypage-menu a:hover {
+  background: #f0f0f0;
+}
+
+.mypage-dropdown:hover .mypage-menu {
+  display: block;
+}
